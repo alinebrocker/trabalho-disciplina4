@@ -26,10 +26,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests - JUnit
+      - name: Run tests (JUnit XML)
         run: npm test
 
-      - name: Upload test report - XML
+      - name: Generate HTML report
+        run: npm run test:report
+
+      - name: Upload test reports - XML and HTML
         uses: actions/upload-artifact@v4
         with:
           name: mocha-test-results

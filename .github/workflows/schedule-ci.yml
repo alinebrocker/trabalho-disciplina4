@@ -2,7 +2,7 @@ name: Scheduled CI - Mocha Tests
 
 on:
   schedule:
-    - cron: "0 0/10 0/1 ? * * *" #rodar a cada 10 minutos
+    - cron: "*/10 * * * *" #rodar a cada 10 minutos
   workflow_dispatch:
 
 jobs:

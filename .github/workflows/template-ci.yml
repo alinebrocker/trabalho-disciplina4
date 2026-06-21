@@ -1,4 +1,4 @@
-name: Template CI - Mocha Tests
+name: Template CI - Mocha Tests (Push/Manual/Scheduled)
 
 on:
   push:

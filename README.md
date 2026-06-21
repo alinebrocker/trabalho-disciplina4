@@ -94,7 +94,7 @@
 	- reportHTML.html
 	- reportHTML.json
 
-  Exemplo de Relatório utilizando Mochaesome:
+  Exemplo de Relatório utilizando Mochawesome:
   ![Relatório de Testes](./docs/test-report.png)
   
 

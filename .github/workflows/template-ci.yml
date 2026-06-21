@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "*/10 * * * *" #rodar a cada 10 minutos
+    - cron: "0 1 * * *" 
 
 jobs:
   test:

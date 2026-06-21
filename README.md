@@ -94,6 +94,9 @@
 	- reportHTML.html
 	- reportHTML.json
 
+  Exemplo de Relatório utilizando Mochaesome:
+  ![Relatório de Testes](./docs/test-report.png)
+  
 
 ## Conceitos Aplicados
   - Integração Contínua (CI)
